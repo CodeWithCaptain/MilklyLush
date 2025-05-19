@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Milkylush - Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .product-card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+    .product-img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+    .shop-header {
+      background: url('https://images.unsplash.com/photo-1587731866646-e287b8fa55f7') no-repeat center center/cover;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Shop Banner -->
+  <section class="shop-header">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Our Fresh Dairy Products</h1>
+      <p class="lead">Delivering farm-fresh goodness to your doorstep</p>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1587750051744-d4a5b9a16cdd" class="product-img" alt="Fresh Milk">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Cow Milk</h5>
+              <p class="card-text">1L - ₹60</p>
+              <a href="#" class="btn btn-outline-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1609651785368-55d5a58a759d" class="product-img" alt="Flavored Milk">
+            <div class="card-body text-center">
+              <h5 class="card-title">Flavored Milk</h5>
+              <p class="card-text">200ml - ₹25</p>
+              <a href="#" class="btn btn-outline-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1607330289573-6b2df5fce07a" class="product-img" alt="Ghee">
+            <div class="card-body text-center">
+              <h5 class="card-title">Organic Ghee</h5>
+              <p class="card-text">500g - ₹350</p>
+              <a href="#" class="btn btn-outline-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1631849511124-4499a2e91c0d" class="product-img" alt="Paneer">
+            <div class="card-body text-center">
+              <h5 class="card-title">Fresh Paneer</h5>
+              <p class="card-text">250g - ₹90</p>
+              <a href="#" class="btn btn-outline-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more products as needed -->
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
